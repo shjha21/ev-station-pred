@@ -1,11 +1,8 @@
 # 🚗🔌 EV Charging Infrastructure Modeling & Ward-Level Profitability Analysis  
-*A Machine Learning Replication of the INCET 2023 Workflow*
 
 ---
 
 ## 📌 Overview
-
-This project replicates — and extends — the methodology from the **INCET 2023** paper *“Prediction of EV Charging Behavior Using Machine Learning.”*
 
 Using ward-level demographic and socioeconomic data for Delhi, the notebook builds a complete 3-model pipeline plus clustering to:
 
@@ -23,15 +20,6 @@ The workflow is **fully reproducible**, interpretable, and follows the structure
 
 ├── README.md  
 ├── notebook.ipynb # Main notebook containing the full workflow   
-├── data/  
-│ └── ward_data.csv # Optional dataset file  
-└── figures/   
-├── correlation_heatmap.png  
-├── mse_model1.png  
-├── mse_model2.png  
-├── elbow_method.png  
-├── cluster_plots.png  
-└── final_ranking.png  
 
 
 ---
@@ -67,8 +55,6 @@ Derived features created in the workflow:
 ---
 
 # 🧠 Methodology
-
-A faithful reproduction of the paper’s 3-model workflow:
 
 ---
 
@@ -179,7 +165,6 @@ The notebook automatically generates:
 - ✔️ Cluster Visualizations  
 - ✔️ Final Ranking Bar Chart  
 
-Each figure is exported into `./figures/`.
 
 ---
 
